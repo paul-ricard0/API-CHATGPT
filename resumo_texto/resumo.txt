@@ -1,0 +1,14 @@
+Um pipeline de dados é uma série de etapas de processamento de dados. 
+Se os dados não estiverem carregados na plataforma de dados, eles serão 
+ingeridos no início do pipeline. Depois, há uma série de etapas nas quais 
+cada uma fornece uma saída que é a entrada para a próxima etapa. Isso continua 
+até que o pipeline esteja completo. Em alguns casos, etapas independentes podem 
+ser executadas em paralelo.
+
+Os pipelines de dados consistem em três elementos principais: uma fonte, uma ou mais etapas de 
+processamento e um destino. Em alguns pipelines de dados, o destino pode ser chamado de coletor. 
+Os pipelines de dados permitem o fluxo de dados de um aplicativo para um Data Warehouse, de um 
+Data Lake para um banco de dados analítico ou para um sistema de processamento de pagamentos, 
+por exemplo. Os pipelines de dados também podem ter a mesma fonte e coletor, de modo que o 
+pipeline seja apenas para modificar o conjunto de dados. Sempre que os dados são processados ​​entre o ponto A e o ponto B (ou pontos B, C e D), 
+há um pipeline de dados entre esses pontos.

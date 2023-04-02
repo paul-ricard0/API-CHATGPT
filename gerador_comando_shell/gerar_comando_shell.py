@@ -19,7 +19,7 @@ def gerar_comando(texto: str) -> str:
     )
     return response['choices'][0]['text'].strip()
 
-def _executar_comando_shell(comando: str) -> None:
+def __executar_comando_shell(comando: str) -> None:
     try:
         resultado = subprocess.run(comando, shell=True, check=True)
         print(resultado)
@@ -31,7 +31,7 @@ def validar_comando(comando: str) -> str:
     validacao = input('Seguir com comando: (y/n) ') 
     
     if validacao.upper() == 'Y' or validacao.upper() == 'YES':
-        _executar_comando_shell(comando) 
+        __executar_comando_shell(comando) 
         
     return 'Execução do comando encerrada'
         

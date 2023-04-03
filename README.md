@@ -1,8 +1,8 @@
 # API-CHATGPT
 
 ### sentimento_texto 
-<p>Escreva algum texto negativo, positivo ou com um sentimento neutro </p> 
-<p>E a API vai retornar qual o sentimento desse texto 
+<p>Escreva algum texto negativo, positivo ou com um sentimento neutro <br/>
+E a API vai retornar qual o sentimento desse texto </p>
 
 ### gerador_comando_shell
 <p>Diga no input o que deseja fazer, a API retorna o comando que vai ser dado </p>
